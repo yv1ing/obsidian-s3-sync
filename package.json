@@ -1,0 +1,22 @@
+{
+  "name": "obsidian-s3-sync",
+  "version": "0.1.0",
+  "description": "Two-way sync of an entire Obsidian vault to S3-compatible storage.",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "tsc --noEmit && node esbuild.config.mjs production"
+  },
+  "keywords": [
+    "obsidian",
+    "s3",
+    "sync"
+  ],
+  "author": "yv1ing",
+  "license": "MIT",
+  "devDependencies": {
+    "esbuild": "^0.28.2",
+    "obsidian": "^1.14.4",
+    "typescript": "^7.0.2"
+  }
+}

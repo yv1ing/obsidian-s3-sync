@@ -1,0 +1,11 @@
+.s3-sync-input {
+    width: 320px;
+    max-width: 100%;
+}
+
+.s3-sync-textarea {
+    width: 320px;
+    max-width: 100%;
+    min-height: 96px;
+    font-family: var(--font-monospace);
+}

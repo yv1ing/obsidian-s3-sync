@@ -1,0 +1,10 @@
+{
+  "id": "s3-sync",
+  "name": "S3 Sync",
+  "version": "0.1.0",
+  "minAppVersion": "1.5.7",
+  "description": "Two-way sync of an entire Obsidian vault to S3-compatible storage.",
+  "author": "yv1ing",
+  "authorUrl": "https://github.com/yv1ing",
+  "isDesktopOnly": false
+}
